@@ -12,3 +12,9 @@ Custom trust-region Newton–CG optimizer (mini-batch HVPs, diagonal preconditio
 python3 -m venv .venv && source .venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
+
+
+## Results (MNIST)
+- Time-to-97% accuracy (1 epoch): **TR not reached** vs **AdamW not reached**.
+
+![MNIST TR vs AdamW](figures/mnist_tr_vs_adamw.png)
